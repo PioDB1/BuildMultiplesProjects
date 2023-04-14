@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{59827D66-4FAC-43FF-A503-82011129BC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9A088CC5-8558-4C93-9796-0BEEFF085C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main.Data", "Main.Data\Main.Data.csproj", "{4A0F1286-A319-4701-B677-CAFC24FAF038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5E2EF98A-D9B5-4748-BD96-FC0557E3DC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main.Service", "Main.Service\Main.Service.csproj", "{990A4817-9DC8-4E6F-9041-62D9EB802AD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59827D66-4FAC-43FF-A503-82011129BC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59827D66-4FAC-43FF-A503-82011129BC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59827D66-4FAC-43FF-A503-82011129BC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59827D66-4FAC-43FF-A503-82011129BC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0F1286-A319-4701-B677-CAFC24FAF038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0F1286-A319-4701-B677-CAFC24FAF038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0F1286-A319-4701-B677-CAFC24FAF038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0F1286-A319-4701-B677-CAFC24FAF038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990A4817-9DC8-4E6F-9041-62D9EB802AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990A4817-9DC8-4E6F-9041-62D9EB802AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990A4817-9DC8-4E6F-9041-62D9EB802AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990A4817-9DC8-4E6F-9041-62D9EB802AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A0F1286-A319-4701-B677-CAFC24FAF038} = {9A088CC5-8558-4C93-9796-0BEEFF085C00}
+		{990A4817-9DC8-4E6F-9041-62D9EB802AD6} = {5E2EF98A-D9B5-4748-BD96-FC0557E3DC54}
+	EndGlobalSection
+EndGlobal
